@@ -10,11 +10,14 @@
 
 
 
-- 🌱 I’m currently enroled in  Bachelor's Degree in Techniques for Software Development
+- :green_book: I’m  enroled in  Bachelor's Degree in Techniques for Software Development
+
+- :department_store: Currently working as a Data Analyst, performing data export, storage, interpretation, and analysis.
 
 - 📫 MailMe **jesusjoaquinmorenocarreno@gmail.com**
 
 - ⚡ Fun fact ---> I often create playlists for different programming languages.
+  
 
 <br>
 
