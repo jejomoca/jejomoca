@@ -44,7 +44,6 @@
   <a href="https://powerbi.microsoft.com/en-us/power-query/">
     <img src="https://github.com/microsoft/PowerBI-Icons/blob/main/PNG/Power-Query-Colored.png?raw=true" height="40" alt="Power Query" />
   </a>
-  <img src="https://camo.githubusercontent.com/4c68cdb1f0bd47ec0013a84e4d037070955840323a8d66622683f27452cb799e/68747470733a2f2f692e6c6f6c692e6e65742f323032312f31312f32332f6c4b587842316643774c6376485a4d2e706e67" height="40" alt="Custom Icon" />
 </p>
 
 
