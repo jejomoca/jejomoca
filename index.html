@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Joaquín Moreno · Data Analyst CV</title>
+  <!-- Font Awesome para iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    /* === RESET Y ESTILOS GENERALES === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #0b0b0b;
+      font-family: 'Courier New', monospace;
+      color: #b0ffb0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #111;
+      padding: 30px 25px;
+      border-radius: 12px;
+      border: 1px solid #2e8b57;
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.2);
+    }
+
+    /* === TÍTULO PRINCIPAL === */
+    h1 {
+      font-size: 2.8rem;
+      text-align: center;
+      text-transform: uppercase;
+      color: #32cd32;
+      text-shadow: 0 0 10px #32cd32;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #2e8b57;
+      padding-bottom: 15px;
+    }
+
+    .subhead {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #9fdf9f;
+      margin-bottom: 25px;
+    }
+
+    .subhead i {
+      margin-right: 8px;
+      color: #32cd32;
+    }
+
+    /* === CONTACTO === */
+    .contact-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px 30px;
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      border: 1px solid #2e8b57;
+    }
+
+    .contact-grid a {
+      color: #b0ffb0;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: 0.3s;
+    }
+
+    .contact-grid a:hover {
+      color: #32cd32;
+      text-shadow: 0 0 8px #32cd32;
+    }
+
+    .contact-grid i {
+      margin-right: 8px;
+      color: #32cd32;
+      width: 20px;
+    }
+
+    /* === SECCIONES === */
+    section {
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #32cd32;
+      border-left: 4px solid #32cd32;
+      padding-left: 12px;
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* === RESUMEN === */
+    .summary {
+      background: #1a1a1a;
+      padding: 18px;
+      border-radius: 8px;
+      border-left: 4px solid #32cd32;
+      font-size: 1rem;
+    }
+
+    /* === EXPERIENCIA, EDUCACIÓN, CERTIFICACIONES === */
+    .exp-item, .edu-item, .cert-item {
+      background: #161616;
+      padding: 18px 20px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #2e8b57;
+      transition: 0.2s;
+    }
+
+    .exp-item:hover, .edu-item:hover, .cert-item:hover {
+      border-color: #32cd32;
+      box-shadow: 0 0 12px rgba(50, 205, 50, 0.15);
+    }
+
+    .exp-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .exp-header h3 {
+      font-size: 1.3rem;
+      color: #b0ffb0;
+    }
+
+    .exp-header .org {
+      color: #9fdf9f;
+      font-weight: bold;
+    }
+
+    .exp-header .date {
+      color: #6f9f6f;
+      font-size: 0.9rem;
+    }
+
+    .exp-details {
+      list-style: none;
+      margin-top: 8px;
+    }
+
+    .exp-details li {
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    .exp-details li::before {
+      content: ">";
+      position: absolute;
+      left: 0;
+      color: #32cd32;
+      font-weight: bold;
+    }
+
+    /* === TAGS DE HABILIDADES === */
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .skill-tag {
+      background: #1a2a1a;
+      border: 1px solid #2e8b57;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: #b0ffb0;
+      transition: 0.2s;
+    }
+
+    .skill-tag:hover {
+      background: #2e8b57;
+      color: #111;
+      cursor: default;
+    }
+
+    /* === CERTIFICACIONES === */
+    .cert-item {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .cert-item .issuer {
+      color: #9fdf9f;
+      font-weight: bold;
+    }
+
+    .cert-item .date {
+      color: #6f9f6f;
+      font-size: 0.9rem;
+    }
+
+    /* === EDUCACIÓN === */
+    .edu-item .edu-detail {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+
+    .edu-item .institution {
+      color: #9fdf9f;
+    }
+
+    .edu-item .year {
+      color: #6f9f6f;
+    }
+
+    /* === IDIOMAS === */
+    .lang-item {
+      display: inline-block;
+      background: #1a2a1a;
+      border: 1px solid #2e8b57;
+      padding: 6px 18px;
+      border-radius: 20px;
+      margin: 5px 10px 5px 0;
+      font-size: 0.95rem;
+    }
+
+    .lang-item strong {
+      color: #32cd32;
+    }
+
+    /* === ENLACE AL AGENT RESUME === */
+    .agent-resume-link {
+      background: #1a1a1a;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #2e8b57;
+    }
+
+    .agent-resume-link a {
+      color: #32cd32;
+      text-decoration: underline;
+      word-break: break-all;
+    }
+
+    /* === FOOTER === */
+    footer {
+      text-align: center;
+      margin-top: 35px;
+      padding-top: 15px;
+      border-top: 1px solid #2e8b57;
+      color: #6f9f6f;
+      font-size: 0.85rem;
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+      }
+      .container {
+        padding: 15px;
+      }
+      .exp-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .cert-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+      }
+      .edu-item .edu-detail {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>Jesús Joaquín Moreno Carreño</h1>
+  <div class="subhead">
+    <i class="fas fa-code"></i> Data Analyst · Business Intelligence · ETL &amp; Automation
+  </div>
+
+  <!-- Contacto -->
+  <div class="contact-grid">
+    <a href="mailto:jesusjoaquinmorenocarreno@gmail.com"><i class="fas fa-envelope"></i>jesusjoaquinmorenocarreno@gmail.com</a>
+    <a href="tel:+34670565672"><i class="fas fa-phone"></i>+34 670 56 56 72</a>
+    <a href="https://www.linkedin.com/in/joaquin-moreno-693b121ab/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    <a href="https://github.com/jejomoca" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+    <a href="https://huggingface.co/bellapala" target="_blank"><i class="fab fa-huggingface"></i>Hugging Face</a>
+  </div>
+
+  <!-- Resumen -->
+  <section>
+    <h2><i class="fas fa-user-astronaut"></i> Sobre mí</h2>
+    <div class="summary">
+      <p>Data Analyst con más de 2 años de experiencia en el sector logístico y de call centers, especializado en <strong>ETL</strong>, <strong>automatización de procesos</strong> con Python y <strong>visualización de datos</strong> con Power BI y Tableau. Combino una sólida formación en desarrollo de software con una trayectoria previa en seguridad alimentaria, lo que me aporta una visión analítica y meticulosa. Apasionado por convertir datos en decisiones estratégicas.</p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section>
+    <h2><i class="fas fa-briefcase"></i> Experiencia</h2>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Data Analyst // Técnico de planificación operativa</h3>
+        <span class="org">Alsa</span>
+        <span class="date">Ene 2025 – Actualidad</span>
+      </div>
+      <ul class="exp-details">
+        <li>ETL con Python y librerías Oracle para extracción y transformación de datos.</li>
+        <li>Automatización de recepción y transformación de datos con Google Apps Script.</li>
+        <li>Generación de trayectos en GIS mediante Python e inserción en base de datos.</li>
+        <li>Manejo de herramientas de planificación: Altitude, Zasylogic, Callmore.</li>
+        <li>Gestión de bases de datos Oracle y elaboración de dashboards en Power BI y Tableau.</li>
+        <li>Seguimiento y análisis de KPIs operativos.</li>
+      </ul>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Power BI</span>
+        <span class="skill-tag">Tableau</span>
+        <span class="skill-tag">GIS</span>
+        <span class="skill-tag">Google Apps Script</span>
+        <span class="skill-tag">Oracle</span>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Data Analyst</h3>
+        <span class="org">Zelenza CEX</span>
+        <span class="date">Feb 2024 – Nov 2024</span>
+      </div>
+      <ul class="exp-details">
+        <li>ETL y análisis de datos en entorno de call center.</li>
+        <li>Monitorización en tiempo real de campañas y ejecución de medidas correctivas.</li>
+        <li>Gestión de bases de datos en Access y SQL.</li>
+        <li>Automatización de procesos con Python.</li>
+        <li>Elaboración de reportes diarios y dashboards en Power BI y Excel.</li>
+        <li>Manejo de Altitude, Zasylogic y Callmore.</li>
+      </ul>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Access</span>
+        <span class="skill-tag">Power BI</span>
+        <span class="skill-tag">Excel</span>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Responsable de Calidad y Seguridad Alimentaria</h3>
+        <span class="org">Marina d'Or</span>
+        <span class="date">Jun 2023 – Sep 2023</span>
+      </div>
+      <ul class="exp-details">
+        <li>Gestión documental y elaboración del programa APPCC.</li>
+        <li>Realización de auditorías internas y seguimiento de auditorías externas.</li>
+        <li>Formación y gestión de equipos.</li>
+      </ul>
+    </div>
+
+    <!-- Otras experiencias relevantes (resumidas) -->
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Dietitian and Food Safety Technical</h3>
+        <span class="org">Serunion S.A.</span>
+        <span class="date">Feb 2022 – Abr 2022</span>
+      </div>
+      <ul class="exp-details">
+        <li>Gestión de alérgenos y cumplimiento normativo.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Quality Technician</h3>
+        <span class="org">Beer&Dreams Company</span>
+        <span class="date">May 2019 – Sep 2019</span>
+      </div>
+      <ul class="exp-details">
+        <li>Aseguramiento de calidad en industria alimentaria y bebidas.</li>
+      </ul>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-header">
+        <h3>Quality Assurance Technician</h3>
+        <span class="org">MICROAL</span>
+        <span class="date">Nov 2013 – Jun 2014</span>
+      </div>
+      <ul class="exp-details">
+        <li>Gestión documental e implantación de normas de calidad y seguridad alimentaria.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Educación -->
+  <section>
+    <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+    <div class="edu-item">
+      <div class="edu-detail">
+        <span><strong>Bachelor's Degree in Software Development</strong> (English)</span>
+        <span class="institution">Universitat Oberta de Catalunya</span>
+        <span class="year">2022 – 2026 · Nota: 8.28</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-detail">
+        <span><strong>Máster Universitario en Tecnología e Industria Alimentaria</strong></span>
+        <span class="institution">Universidad de Sevilla</span>
+        <span class="year">2018 – 2021</span>
+      </div>
+      <div style="margin-top:6px; font-size:0.9rem; color:#9fdf9f;">
+        <i class="fas fa-file-alt"></i> TFM: Implementación ISO 22000 en servicios de catering
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-detail">
+        <span><strong>Máster en Ciencia y Tecnología de Alimentos</strong> (Aceites y Bebidas)</span>
+        <span class="institution">Universidad Pablo de Olavide</span>
+        <span class="year">2012 – 2014</span>
+      </div>
+      <div style="margin-top:6px; font-size:0.9rem; color:#9fdf9f;">
+        <i class="fas fa-file-alt"></i> TFM: Implementación ISO 17025 en laboratorio
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-detail">
+        <span><strong>Diplomatura en Dietética y Nutrición Clínica</strong></span>
+        <span class="institution">Universidad Autónoma de Madrid</span>
+        <span class="year">2009 – 2012</span>
+      </div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-detail">
+        <span><strong>Grado Superior en Nutrición Humana y Dietética</strong></span>
+        <span class="institution">Instituto Albert Einstein</span>
+        <span class="year">2007 – 2009</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades Técnicas -->
+  <section>
+    <h2><i class="fas fa-tools"></i> Habilidades Técnicas</h2>
+    <div style="display:flex; flex-wrap:wrap; gap:10px;">
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">SQL</span>
+      <span class="skill-tag">Power BI</span>
+      <span class="skill-tag">Tableau</span>
+      <span class="skill-tag">Excel (Avanzado)</span>
+      <span class="skill-tag">Google Apps Script</span>
+      <span class="skill-tag">VBA</span>
+      <span class="skill-tag">GIS / Quantum GIS</span>
+      <span class="skill-tag">Oracle Database</span>
+      <span class="skill-tag">Access</span>
+      <span class="skill-tag">PostgreSQL</span>
+      <span class="skill-tag">SQLite</span>
+      <span class="skill-tag">ETL</span>
+      <span class="skill-tag">Machine Learning (básico)</span>
+      <span class="skill-tag">Linux / CLI</span>
+      <span class="skill-tag">Git</span>
+      <span class="skill-tag">Mermaid</span>
+      <span class="skill-tag">CRISP-DM</span>
+    </div>
+  </section>
+
+  <!-- Certificaciones -->
+  <section>
+    <h2><i class="fas fa-certificate"></i> Certificaciones</h2>
+    <div class="cert-item">
+      <span><strong>Guided Learning Experience in AI &amp; Capstone</strong></span>
+      <span class="issuer">SkillUp Online</span>
+      <span class="date">2025</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Programa de Aprendizaje Basado en Proyectos en IA</strong></span>
+      <span class="issuer">IBM</span>
+      <span class="date">2024</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Python for Data Science, AI &amp; Development</strong></span>
+      <span class="issuer">IBM</span>
+      <span class="date">2024</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Tools for Data Science</strong></span>
+      <span class="issuer">IBM</span>
+      <span class="date">2024</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Databases and SQL for Data Science with Python (Honors)</strong></span>
+      <span class="issuer">IBM</span>
+      <span class="date">2024</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Artificial Intelligence Fundamentals</strong></span>
+      <span class="issuer">IBM</span>
+      <span class="date">2024</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Google Data</strong></span>
+      <span class="issuer">Google</span>
+      <span class="date">2024</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Básico técnico de ciberseguridad (250h)</strong></span>
+      <span class="issuer">Curso</span>
+      <span class="date">2023</span>
+    </div>
+    <div class="cert-item">
+      <span><strong>Accreditation of competencies in ICT</strong></span>
+      <span class="issuer">UOC</span>
+      <span class="date">2023</span>
+    </div>
+  </section>
+
+  <!-- Idiomas -->
+  <section>
+    <h2><i class="fas fa-language"></i> Idiomas</h2>
+    <div>
+      <span class="lang-item"><strong>Español</strong> · Nativo</span>
+      <span class="lang-item"><strong>Inglés</strong> · B2 (MCER) · Linguaskill Cambridge</span>
+    </div>
+  </section>
+
+  <!-- Enlace al Agent Resume (JSON) -->
+  <section>
+    <h2><i class="fas fa-robot"></i> Para Agentes de IA</h2>
+    <div class="agent-resume-link">
+      <i class="fas fa-link"></i> Mi currículum en formato <strong>Agent Resume</strong> (JSON) está disponible en: 
+      <a href="https://jejomoca.github.io/.well-known/ai-resume.json" target="_blank">https://jejomoca.github.io/.well-known/ai-resume.json</a>
+    </div>
+  </section>
+
+  <footer>
+    <i class="fas fa-code"></i> Joaquín Moreno · Data Analyst · 2026
+  </footer>
+</div>
+</body>
+</html>
