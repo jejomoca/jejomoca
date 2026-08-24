@@ -1,19 +1,21 @@
 {
-  "@context": "https://schema.org",
+  "@context": [
+    "https://schema.org",
+    { "@base": "https://jejomoca.github.io/jejomoca/.well-known/person.jsonld" }
+  ],
   "@graph": [
     {
       "@type": "ProfilePage",
-      "@id": "https://jejomoca.github.io/jejomoca/,
+      "@id": "#page",
       "url": "https://jejomoca.github.io/jejomoca/",
       "name": "Joaquín Moreno — Data Analyst",
       "inLanguage": "en",
       "dateModified": "2026-08-24",
-      "mainEntity": { "@id": "https://jejomoca.github.io/jejomoca/" }
+      "mainEntity": { "@id": "#person" }
     },
-
     {
       "@type": "Person",
-      "@id": "https://jejomoca.github.io/jejomoca/",
+      "@id": "#person",
       "name": "Joaquín Moreno",
       "givenName": "Joaquín",
       "familyName": "Moreno",
