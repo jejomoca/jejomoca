@@ -8,9 +8,7 @@
     alt="jejomoca" /> 
   </p>
 
-
-
-- :green_book: I’m  enroled in  Bachelor's Degree in Techniques for Software Development
+- :green_book: I’m a recent graduate with a **BSc in Software Engineering** (UOC, 2026)
 
 - :department_store: Currently working as a Data Analyst, performing data export, storage, interpretation, and analysis.
 
@@ -19,6 +17,19 @@
 - ⚡ Fun fact ---> I often create playlists for different programming languages.
   
 
+<br>
+
+## 🏆 GitHub Achievements
+
+<!-- Insignias actualizadas desde un repositorio de badges (ej. henriquesebastiao/badges) -->
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jejomoca)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)](https://www.tableau.com/)
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+
+
+<!-- Widget de la serpiente (snk) - siempre funciona y es muy visual -->
 <br>
 
 <h3 align="left"`>We are close</h3>
@@ -45,17 +56,3 @@
     <img src="https://github.com/microsoft/PowerBI-Icons/blob/main/PNG/Power-Query-Colored.png?raw=true" height="40" alt="Power Query" />
   </a>
 </p>
-
-
-<h3>Statistical Data :-</h3>
-<p><img align="center"
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=jejomoca&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&layout=compact"
-    alt="jejomoca" 
-    bg_color=#808080/></p>
-
-<br>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jejomoca&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
-    alt="jejomoca" /></p>
-
-<br>
