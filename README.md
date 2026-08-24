@@ -15,13 +15,23 @@
 - 📫 MailMe **jesusjoaquinmorenocarreno@gmail.com**
 
 - ⚡ Fun fact ---> I often create playlists for different programming languages.
-  
+[![CV PDF](https://img.shields.io/badge/CV-PDF-B02A2A?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://jejomoca.github.io/jejomoca/CV_Joaquin_Moreno_Data_Analyst.pdf)
+[![CV Web](https://img.shields.io/badge/CV-Web-1F3864?style=for-the-badge&logo=html5&logoColor=white)](https://jejomoca.github.io/jejomoca/) 
+[![schema.org JSON-LD](https://img.shields.io/badge/Machine--readable_CV-schema.org_JSON--LD-6A359C?style=for-the-badge&logo=json&logoColor=white)](https://jejomoca.github.io/jejomoca/.well-known/person.jsonld)
+[![agent-resume JSON](https://img.shields.io/badge/Machine--readable_CV-agent--resume_JSON-0A7E8C?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jejomoca.github.io/jejomoca/.well-known/resume-agent.json)
 
+
+
+Structured CV endpoints:
+- schema.org (JSON-LD): <https://jejomoca.github.io/jejomoca/.well-known/person.jsonld>
+- agent-resume (JSON): <https://jejomoca.github.io/jejomoca/.well-known/resume-agent.json>
+- PDF: <https://jejomoca.github.io/jejomoca/CV_Joaquin_Moreno_Data_Analyst.pdf>
+- HTML: <https://jejomoca.github.io/jejomoca/>
 <br>
 
 ## 🏆 GitHub Achievements
 
-<!-- Insignias actualizadas desde un repositorio de badges (ej. henriquesebastiao/badges) -->
+
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jejomoca)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
@@ -29,7 +39,7 @@
 [![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 
 
-<!-- Widget de la serpiente (snk) - siempre funciona y es muy visual -->
+
 <br>
 
 <h3 align="left"`>We are close</h3>
