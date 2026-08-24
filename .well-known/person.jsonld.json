@@ -1,0 +1,593 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://jejomoca.github.io/jejomoca/,
+      "url": "https://jejomoca.github.io/jejomoca/",
+      "name": "Joaquín Moreno — Data Analyst",
+      "inLanguage": "en",
+      "dateModified": "2026-08-24",
+      "mainEntity": { "@id": "https://jejomoca.github.io/jejomoca/" }
+    },
+
+    {
+      "@type": "Person",
+      "@id": "https://jejomoca.github.io/jejomoca/",
+      "name": "Joaquín Moreno",
+      "givenName": "Joaquín",
+      "familyName": "Moreno",
+      "jobTitle": "Data Analyst",
+      "disambiguatingDescription": "Data Analyst specialising in SQL, business intelligence, Python ETL and geospatial transport analytics, with a prior decade in ISO-regulated quality assurance.",
+      "description": "Data Analyst with 2.5 years dedicated to data work in passenger transport and telecommunications, holding a BSc in Software Engineering (Universitat Oberta de Catalunya, July 2026, taught entirely in English, GPA 8.28/10). Covers the full cycle: extraction and modelling in Oracle, PostgreSQL and SQL Server; ETL and automation in Python; delivery in Tableau, Power BI and advanced Excel. Two distinguishing specialisations: geospatial transport analytics (QGIS, OSRM, GTFS, route-adherence analysis from geolocation) and data quality, drawn from ten prior years as a quality and audit technician under ISO 9001, 17020, 17025 and 22000. Builds pipelines with pre-load validation and input–output reconciliation rather than transformation alone.",
+      "email": "mailto:jesusjoaquinmorenocarreno@gmail.com",
+      "telephone": "+34670565572",
+      "url": "https://jejomoca.github.io/jejomoca/",
+      "sameAs": [
+        "https://www.linkedin.com/in/joaquin-moreno-693b121ab/",
+        "https://github.com/jejomoca",
+        "https://huggingface.co/bellapala"
+      ],
+
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seville",
+        "addressRegion": "Andalucía",
+        "addressCountry": "ES"
+      },
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Seville, Spain",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Seville",
+          "addressCountry": "ES"
+        }
+      },
+      "workLocation": [
+        {
+          "@type": "Place",
+          "name": "Remote"
+        },
+        {
+          "@type": "Place",
+          "name": "Seville, Spain (hybrid)",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Seville",
+            "addressCountry": "ES"
+          }
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Professional enquiries",
+        "email": "mailto:jesusjoaquinmorenocarreno@gmail.com",
+        "telephone": "+34670565572",
+        "availableLanguage": [
+          { "@type": "Language", "name": "Spanish", "alternateName": "es" },
+          { "@type": "Language", "name": "English", "alternateName": "en" }
+        ]
+      },
+
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "Spanish",
+          "alternateName": "es",
+          "description": "Native"
+        },
+        {
+          "@type": "Language",
+          "name": "English",
+          "alternateName": "en",
+          "description": "CEFR B2, certified by Cambridge Linguaskill. Undergraduate degree delivered entirely in English."
+        }
+      ],
+
+      "knowsAbout": [
+        { "@type": "DefinedTerm", "name": "SQL", "termCode": "sql" },
+        { "@type": "DefinedTerm", "name": "Oracle Database" },
+        { "@type": "DefinedTerm", "name": "PostgreSQL" },
+        { "@type": "DefinedTerm", "name": "Microsoft SQL Server" },
+        { "@type": "DefinedTerm", "name": "Transact-SQL" },
+        { "@type": "DefinedTerm", "name": "SQL Server Management Studio" },
+        { "@type": "DefinedTerm", "name": "SQL Server Reporting Services" },
+        { "@type": "DefinedTerm", "name": "MySQL" },
+        { "@type": "DefinedTerm", "name": "SQLite" },
+        { "@type": "DefinedTerm", "name": "Microsoft Access" },
+        { "@type": "DefinedTerm", "name": "Tableau" },
+        { "@type": "DefinedTerm", "name": "Microsoft Power BI" },
+        { "@type": "DefinedTerm", "name": "DAX" },
+        { "@type": "DefinedTerm", "name": "Marimo" },
+        { "@type": "DefinedTerm", "name": "Business intelligence" },
+        { "@type": "DefinedTerm", "name": "Data visualisation" },
+        { "@type": "DefinedTerm", "name": "KPI definition and reporting" },
+        { "@type": "DefinedTerm", "name": "Python" },
+        { "@type": "DefinedTerm", "name": "pandas" },
+        { "@type": "DefinedTerm", "name": "NumPy" },
+        { "@type": "DefinedTerm", "name": "Matplotlib" },
+        { "@type": "DefinedTerm", "name": "Seaborn" },
+        { "@type": "DefinedTerm", "name": "Jupyter" },
+        { "@type": "DefinedTerm", "name": "R" },
+        { "@type": "DefinedTerm", "name": "Extract, transform, load (ETL)" },
+        { "@type": "DefinedTerm", "name": "Data pipeline automation" },
+        { "@type": "DefinedTerm", "name": "Data quality and validation" },
+        { "@type": "DefinedTerm", "name": "Data governance" },
+        { "@type": "DefinedTerm", "name": "CRISP-DM" },
+        { "@type": "DefinedTerm", "name": "Web scraping" },
+        { "@type": "DefinedTerm", "name": "REST APIs" },
+        { "@type": "DefinedTerm", "name": "Microsoft Excel" },
+        { "@type": "DefinedTerm", "name": "Power Query" },
+        { "@type": "DefinedTerm", "name": "Visual Basic for Applications" },
+        { "@type": "DefinedTerm", "name": "Google Sheets" },
+        { "@type": "DefinedTerm", "name": "Google Apps Script" },
+        { "@type": "DefinedTerm", "name": "QGIS" },
+        { "@type": "DefinedTerm", "name": "Geographic information systems" },
+        { "@type": "DefinedTerm", "name": "OSRM" },
+        { "@type": "DefinedTerm", "name": "GTFS" },
+        { "@type": "DefinedTerm", "name": "Geospatial analysis" },
+        { "@type": "DefinedTerm", "name": "Geodesic distance computation" },
+        { "@type": "DefinedTerm", "name": "Ollama" },
+        { "@type": "DefinedTerm", "name": "Qwen3" },
+        { "@type": "DefinedTerm", "name": "Local large language model deployment" },
+        { "@type": "DefinedTerm", "name": "Git" },
+        { "@type": "DefinedTerm", "name": "GitHub" },
+        { "@type": "DefinedTerm", "name": "Linux" },
+        { "@type": "DefinedTerm", "name": "Jira" },
+        { "@type": "DefinedTerm", "name": "LaTeX" },
+        { "@type": "DefinedTerm", "name": "ISO 9001" },
+        { "@type": "DefinedTerm", "name": "ISO 17020" },
+        { "@type": "DefinedTerm", "name": "ISO 17025" },
+        { "@type": "DefinedTerm", "name": "ISO 22000" },
+        { "@type": "DefinedTerm", "name": "Internal auditing" },
+        { "@type": "DefinedTerm", "name": "Verification and validation" },
+        { "@type": "DefinedTerm", "name": "Traceability and document control" },
+        { "@type": "DefinedTerm", "name": "Food science and technology" },
+        { "@type": "DefinedTerm", "name": "Food safety" },
+        { "@type": "DefinedTerm", "name": "Human nutrition and dietetics" },
+        { "@type": "DefinedTerm", "name": "Cybersecurity fundamentals" }
+      ],
+
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Data Analyst",
+        "description": "Full-cycle analytics: SQL extraction and modelling, ETL and automation in Python, and delivery through Tableau, Power BI and advanced Excel, with specialisations in geospatial transport analytics and data quality.",
+        "occupationalCategory": {
+          "@type": "CategoryCode",
+          "codeValue": "15-2051.00",
+          "name": "Data Scientists and Data Analysts",
+          "inCodeSet": {
+            "@type": "CategoryCodeSet",
+            "name": "O*NET-SOC",
+            "url": "https://www.onetonline.org/"
+          }
+        },
+        "skills": [
+          "SQL", "Oracle Database", "PostgreSQL", "Microsoft SQL Server",
+          "Tableau", "Microsoft Power BI", "Python", "pandas", "ETL",
+          "Data quality and validation", "KPI reporting", "Advanced Microsoft Excel",
+          "QGIS", "GTFS", "OSRM", "Geospatial analysis"
+        ],
+        "experienceRequirements": {
+          "@type": "OccupationalExperienceRequirements",
+          "monthsOfExperience": 30
+        },
+        "estimatedSalary": {
+          "@type": "MonetaryAmount",
+          "currency": "EUR",
+          "value": {
+            "@type": "QuantitativeValue",
+            "minValue": 35000,
+            "unitText": "YEAR"
+          }
+        },
+        "occupationLocation": {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      },
+
+      "seeks": {
+        "@type": "Demand",
+        "name": "Data Analyst, BI Analyst or Analytics Engineer position",
+        "description": "A remote or hybrid Data Analyst or junior Analytics Engineer role where SQL and a mainstream BI tool are the backbone, with room to apply geospatial analytics or data-quality engineering, and a path toward modern orchestration tooling. Open to any sector; food industry, agri-food and nutrition are an added domain advantage rather than a requirement.",
+        "availableAtOrFrom": {
+          "@type": "Place",
+          "name": "Seville, Spain / Remote"
+        },
+        "availabilityStarts": "2026-08-24",
+        "eligibleRegion": {
+          "@type": "Country",
+          "name": "Spain"
+        }
+      },
+
+      "worksFor": [
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Data Analyst / Operational Planning Officer",
+          "startDate": "2025-01",
+          "endDate": "2026-08",
+          "description": "Operational and geospatial analytics for service planning: routes, fleets, frequencies, calendars and network maps, reporting to the Operations Directorate. Built the province-wide service-change ETL pipeline in Python, with automated email intake, transformation into the corporate data model, database loading and automatic input–output reconciliation, cutting cycle time from nine days to three. Automated route generation in QGIS from stop data and the OSRM routing API, from six days to two. Built route-adherence analytics comparing vehicle geolocation against published GTFS traces: broken-trip detection, percentage similarity to the reference route, unplanned diversions and delays. Built and maintained nine Tableau dashboards with automated publishing, and produced analytical presentations in Marimo with live scraping and interactive KPI controls.",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Alsa",
+            "description": "Passenger transport operator",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "León",
+              "addressCountry": "ES"
+            }
+          }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Data Analyst",
+          "startDate": "2024-02",
+          "endDate": "2024-11",
+          "description": "Real-time performance monitoring of three concurrent contact-centre campaigns — Legálitas (legal services), Iberdrola (energy) and insurance — on the corporate omnichannel platform. Automated eight daily reports in Power BI and Excel summarising campaign performance for direct distribution to clients. Defined and tracked operational and sales KPIs: contactability, abandon rate, conversion, average handling time and average time to sale. Analysed lead profitability against acquisition price and attempt count, and compared fractional versus single-block purchasing of contact databases, producing a recommendation on purchasing strategy. Administered campaign databases in Microsoft SQL Server and Microsoft Access and automated recurring processes in Python.",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Zelenza CEX",
+            "description": "Telecommunications and customer experience services",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Seville",
+              "addressCountry": "ES"
+            }
+          }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Dietitian, Quality assurance, food safety technician (aggregated prior career)",
+          "startDate": "2008-05",
+          "endDate": "2023-09",
+          "description": "Dietist, Quality control, food safety management and auditing in regulated environments, including Marina d'Or Ciudad de Vacaciones, Printes Security Advice, Serunion, Beer&Dreams Company, Microal Técnicos en Agroalimentación and Hospital Universitario Virgen del Rocío. Transferable competencies: ISO 9001, 17020, 17025 and 22000 internal auditing; verification and validation; instrument calibration; controlled documentation and traceability; inspection and quality control; team training.",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Multiple employers (food safety, agri-food laboratory and quality assurance)",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "ES"
+            }
+          }
+        }
+      ],
+
+      "alumniOf": [
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Undergraduate student, Software Engineering",
+          "startDate": "2022-09",
+          "endDate": "2026-07",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universitat Oberta de Catalunya",
+            "address": { "@type": "PostalAddress", "addressCountry": "ES" }
+          }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Master's student, Food Industry",
+          "startDate": "2018",
+          "endDate": "2021",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad de Sevilla",
+            "address": { "@type": "PostalAddress", "addressLocality": "Seville", "addressCountry": "ES" }
+          }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Master's student, Food Science and Technology",
+          "startDate": "2012",
+          "endDate": "2014",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Pablo de Olavide",
+            "address": { "@type": "PostalAddress", "addressLocality": "Seville", "addressCountry": "ES" }
+          }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Undergraduate student, Human Nutrition and Dietetics",
+          "startDate": "2009",
+          "endDate": "2012",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Autónoma de Madrid",
+            "address": { "@type": "PostalAddress", "addressLocality": "Madrid", "addressCountry": "ES" }
+          }
+        },
+        {
+          "@type": "OrganizationRole",
+          "roleName": "Higher technical diploma student, Human Nutrition and Dietetics",
+          "startDate": "2007",
+          "endDate": "2009",
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "IES Albert Einstein",
+            "address": { "@type": "PostalAddress", "addressLocality": "Seville", "addressCountry": "ES" }
+          }
+        }
+      ],
+
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "BSc Software Engineering (Graduado en Técnicas de Aplicaciones de Software)",
+          "credentialCategory": "degree",
+          "educationalLevel": "EQF level 6 / MECES level 2",
+          "dateCreated": "2026-07",
+          "identifier": "2503871",
+          "about": { "@type": "DefinedTerm", "name": "Computer Science" },
+          "description": "Grade point average 8.28 out of 10. Taught entirely in English. Branch of Engineering and Architecture, field of Computer Science. Awarded under Spanish Royal Decree 1393/2007.",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universitat Oberta de Catalunya"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "MSc Food Industry (Máster en Industria Alimentaria)",
+          "credentialCategory": "degree",
+          "educationalLevel": "EQF level 7 / MECES level 3",
+          "dateCreated": "2021",
+          "description": "Thesis: implementation of ISO 22000 in a catering operation.",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad de Sevilla"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "MSc Food Science and Technology, specialisation in oils and fermented beverages",
+          "credentialCategory": "degree",
+          "educationalLevel": "EQF level 7 / MECES level 3",
+          "dateCreated": "2014",
+          "description": "Thesis: implementation of ISO 9001 and ISO 17025 in an agri-food laboratory.",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Pablo de Olavide"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "BSc Human Nutrition and Dietetics",
+          "credentialCategory": "degree",
+          "educationalLevel": "EQF level 6 / MECES level 2",
+          "dateCreated": "2012",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Autónoma de Madrid"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Higher Technical Diploma in Human Nutrition and Dietetics",
+          "credentialCategory": "diploma",
+          "dateCreated": "2009",
+          "recognizedBy": {
+            "@type": "EducationalOrganization",
+            "name": "IES Albert Einstein"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Databases and SQL for Data Science with Python (with Honors)",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-10",
+          "timeRequired": "PT18H",
+          "identifier": "LEHLQ1KA0LV1",
+          "url": "https://www.coursera.org/account/accomplishments/records/LEHLQ1KA0LV1",
+          "competencyRequired": ["SQL", "Python", "Relational databases"],
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Python for Data Science, AI & Development",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-09",
+          "timeRequired": "PT24H",
+          "identifier": "WSG57H39V93Q",
+          "url": "https://www.coursera.org/account/accomplishments/records/WSG57H39V93Q",
+          "competencyRequired": ["Python", "pandas", "NumPy"],
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Tools for Data Science",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-09",
+          "timeRequired": "PT16H",
+          "identifier": "WR07TSZAKVRA",
+          "url": "https://www.coursera.org/account/accomplishments/records/WR07TSZAKVRA",
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Data Science",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-08",
+          "timeRequired": "PT11H",
+          "url": "https://www.credly.com/badges/970e520c-fe6e-49bd-bc3d-c687cf612a14",
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Data Science Methodology",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-09",
+          "timeRequired": "PT8H",
+          "url": "https://www.credly.com/badges/bbe8ae01-2159-45d6-8c5a-2fc70f5ff648",
+          "competencyRequired": ["CRISP-DM"],
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Python Project for Data Science",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-09",
+          "timeRequired": "PT7H",
+          "identifier": "AO0Z8XJ9MUQC",
+          "url": "https://www.coursera.org/account/accomplishments/records/AO0Z8XJ9MUQC",
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "SQL Server Master (IBM SkillsBuild)",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-07",
+          "competencyRequired": ["Microsoft SQL Server", "Transact-SQL"],
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Curso SQL SkillsBuild",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-09",
+          "recognizedBy": { "@type": "Organization", "name": "Datahack School" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Artificial Intelligence Fundamentals",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-10",
+          "url": "https://www.credly.com/badges/c55e2d28-2b7b-4623-b4e0-51b9febe9650",
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Programa de Aprendizaje Basado en Proyectos en Inteligencia Artificial",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-12",
+          "identifier": "PLAN-01FB8819682C",
+          "recognizedBy": { "@type": "Organization", "name": "IBM" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Guided Learning Experience in Artificial Intelligence, with final capstone project",
+          "credentialCategory": "certificate",
+          "dateCreated": "2025-01",
+          "recognizedBy": { "@type": "Organization", "name": "SkillUp Online" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Curso básico técnico de ciberseguridad",
+          "credentialCategory": "certificate",
+          "dateCreated": "2023-07",
+          "timeRequired": "PT250H",
+          "competencyRequired": ["Incident and forensic analysis", "Industrial cybersecurity", "Cybersecurity systems administration"],
+          "recognizedBy": {
+            "@type": "GovernmentOrganization",
+            "name": "INCIBE — Instituto Nacional de Ciberseguridad",
+            "url": "https://www.incibe.es/"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "ACTIC — Acreditación de competencias en tecnologías de la información y la comunicación, nivel medio",
+          "credentialCategory": "certificate",
+          "dateCreated": "2023-02",
+          "timeRequired": "PT150H",
+          "identifier": "01A4656A63194FF7B8ECC3E4ADD393DC",
+          "description": "Official ICT competency accreditation, intermediate level, delivered via Universitat Oberta de Catalunya.",
+          "recognizedBy": {
+            "@type": "GovernmentOrganization",
+            "name": "Generalitat de Catalunya"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Aspectos básicos de los datos",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-06",
+          "timeRequired": "PT19H",
+          "url": "https://www.coursera.org/account/accomplishments/verify/XNBYZQ2TUXZ9",
+          "description": "Introductory course of 19 hours. Distinct from the Google Data Analytics Professional Certificate.",
+          "recognizedBy": { "@type": "Organization", "name": "Google" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "English B2 (CEFR) — Linguaskill",
+          "credentialCategory": "certificate",
+          "dateCreated": "2022-08",
+          "educationalLevel": "CEFR B2",
+          "about": { "@type": "Language", "name": "English", "alternateName": "en" },
+          "recognizedBy": { "@type": "Organization", "name": "Cambridge Assessment English" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Python A-Z: Python para Data Science con Ejercicios Reales",
+          "credentialCategory": "certificate",
+          "dateCreated": "2024-10",
+          "recognizedBy": { "@type": "Organization", "name": "Udemy" }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Legislación SAS",
+          "credentialCategory": "certificate",
+          "timeRequired": "PT100H",
+          "recognizedBy": { "@type": "Organization", "name": "CCOO" }
+        }
+      ],
+
+      "subjectOf": [
+        {
+          "@type": "DataDownload",
+          "name": "Agent-readable resume (agent-resume format)",
+          "contentUrl": "https://jejomoca.github.io/cv/resume-agent.json",
+          "encodingFormat": "application/json",
+          "description": "Extended machine-readable resume with matching criteria, engagement preferences and explicit skill scoping for automated recruitment agents."
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "Curriculum vitae (PDF)",
+          "url": "https://jejomoca.github.io/cv/CV_Joaquin_Moreno_Data_Analyst.pdf",
+          "encodingFormat": "application/pdf",
+          "inLanguage": "es"
+        }
+      ]
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://jejomoca.github.io/cv/#project-job-aggregator",
+      "name": "Public-sector job posting aggregator",
+      "description": "Public-sector openings in Spain are published across many uncoordinated bulletins and portals with no common format, making systematic tracking impractical by hand. This multi-source scraper covers BOE, BOJA, provincial bulletins, SAS and SAE, normalises heterogeneous postings into a single schema, and tracks each opening's status over time. The result is continuous automated monitoring replacing manual review across five or more sources.",
+      "programmingLanguage": [
+        { "@type": "ComputerLanguage", "name": "Python" }
+      ],
+      "keywords": "web scraping, pandas, ETL, data normalisation, structured storage",
+      "codeRepository": null,
+      "author": { "@id": "https://jejomoca.github.io/cv/#person" }
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://jejomoca.github.io/cv/#project-question-bank",
+      "name": "Question bank and study system for public examinations",
+      "description": "Past-paper questions recur at uneven rates and are not mapped to syllabus sections, so study effort is allocated poorly. This Python application stores a bank of past examinations, computes recurrence frequency per question, maps each question to its syllabus section, schedules spaced repetition, and links each question directly to the explanation of its answer. Study prioritisation is driven by measured question frequency rather than intuition.",
+      "programmingLanguage": [
+        { "@type": "ComputerLanguage", "name": "Python" }
+      ],
+      "keywords": "relational data model, frequency analysis, spaced repetition",
+      "codeRepository": null,
+      "author": { "@id": "https://jejomoca.github.io/cv/#person" }
+    },
+
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://jejomoca.github.io/cv/#project-predictive-agent",
+      "name": "Predictive AI agent with Qwen3 on Ollama for exam test generation",
+      "description": "Optimising study effort for public examinations requires understanding which questions are likely to appear and how they relate to syllabus sections. This local AI agent, built on the Qwen3 model deployed via Ollama, analyses the question bank and syllabus, generates personalised predictive tests and simulates exam scenarios, drawing on historical question frequency, topic relationships and estimated difficulty to refine its recommendations. Test generation adapts to the user's performance history, concentrating study time on high-probability questions.",
+      "programmingLanguage": [
+        { "@type": "ComputerLanguage", "name": "Python" }
+      ],
+      "keywords": "Ollama, Qwen3, local LLM deployment, predictive analytics, frequency analysis",
+      "codeRepository": null,
+      "author": { "@id": "https://jejomoca.github.io/cv/#person" }
+    }
+  ]
+}
