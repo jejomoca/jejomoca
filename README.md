@@ -21,6 +21,7 @@
 [![agent-resume JSON](https://img.shields.io/badge/Machine--readable_CV-agent--resume_JSON-0A7E8C?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jejomoca.github.io/jejomoca/.well-known/resume-agent.json)
 
 
+<br>
 
 Structured CV endpoints:
 - schema.org (JSON-LD): <https://jejomoca.github.io/jejomoca/.well-known/person.jsonld>
